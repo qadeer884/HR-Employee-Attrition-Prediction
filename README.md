@@ -1,5 +1,5 @@
-# HR-Employee-Attrition-Prediction
-A machine learning project to predict employee attrition using Random Forest Classifier with 97% accuracy, including EDA and Flask-based deployment
+
+# HR Employee Attrition Prediction
 
 This project predicts employee attrition using machine learning models applied to HR datasets. The main objective is to determine whether an employee is likely to leave the company based on various factors such as satisfaction level, evaluation scores, and work hours.
 
@@ -28,3 +28,25 @@ This project predicts employee attrition using machine learning models applied t
 
    ```bash
    git clone https://github.com/your-username/HR-Employee-Attrition-Prediction.git
+   ```
+
+2. **Navigate to the Flask app directory**:
+
+   ```bash
+   cd HR-Employee-Attrition-Prediction/flask_app
+   ```
+
+3. **Install dependencies** (if required):
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Flask app**:
+
+   ```bash
+   python rfc.py
+   ```
+
+
+
